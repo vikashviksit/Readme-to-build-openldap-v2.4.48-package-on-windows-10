@@ -1,7 +1,7 @@
 # ReadMe-to-Build-Oplad-v2.4.48-package-on-Windows
 Intorduction: 
 
-This Readme list (list bullet is c++ pointer symbol '*') the additional set of changes over the ones stated at  https://github.com/mbooth101/openldap by Matt Booth that needs to be done to build OpenLdap package 2.4.48 on 64 bit Windows platform using VC build tool set v140 (VS2017 x64 command window) The source code of OpenLdap 2.4.48.tgz which was downloaded from their Website(https://www.openldap.org/software/download/OpenLDAP/openldap-release/). 
+This Readme list (list bullet is c++ pointer symbol '*') the additional set of changes over the ones stated at  https://github.com/mbooth101/openldap by Matt Booth that needs to be done to build OpenLdap package 2.4.48 on 64 bit Windows platform using VC build tool set v140 (VS2017 x64 command window) The source code of OpenLdap 2.4.48.tgz was downloaded from their Website(https://www.openldap.org/software/download/OpenLDAP/openldap-release/). 
 
 
 *openldap\include\portable.h - Conditional #def for windows platform - vsnprintf ,snprintf
