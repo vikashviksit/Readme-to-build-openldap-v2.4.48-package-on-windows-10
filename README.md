@@ -97,7 +97,7 @@ ldap_tls_inplace
 *openldap\Makefile.win - Comment statements for conditional selection of Platform Arch when using VS2017 x64 or VS2015 x64 command prompt and set "ARCH" to "x64 Release"
 
 #!IF [$(COMSPEC) /c cl /nologo /? \
-#	| $(SystemRoot)\System32\find.exe "x64" >NUL ] == 0
+#| $(SystemRoot)\System32\find.exe "x64" >NUL ] == 0
 #ARCH=x64 Release
 #!ELSE
 #ARCH=Win32 Release
