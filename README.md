@@ -25,7 +25,7 @@ ber_peek_element,ber_skip_element,ber_strnlen
 
 *openldap\include\ac\time.h - include Winsock.h for timeval struct
 #elif defined(HAVE_WINSOCK)
-# include <Winsock.h>
+#include <Winsock.h>
 #else
 
 
